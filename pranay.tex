@@ -1,0 +1,200 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Pranay Aryal} & Email :
+  \textbf{drpranayaryal@gmail.com}\\
+  \ & Mobile : +1-502-416-8034 \\
+\end{tabular*}
+
+
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+ \resumeSubHeadingListStart
+    \item{
+     \textbf{Languages}{: Python, R, Javascript, SQL, PHP}
+     \hfill
+     \textbf{Technologies}{: Docker, Apache Spark, React, Vue }
+    }
+ \resumeSubHeadingListEnd
+
+
+%-------------------------------------
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Doe Anderson}{Louisville, KY}
+      {Web Developer}{Jan 2018 - Present}
+      \resumeItemListStart
+        
+        \resumeItem{ Software Development}
+          { Bug fixes and addition of new features to client websites using PHP, Javascript and MySql.}
+        \resumeItem{ Data }
+          { Analyzed client data consiting of 6 million rows using Apache Spark and MySql}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Blackstone Media}{Louisville, KY}
+      {Web Developer}{May 2016 - Sep 2017}
+      \resumeItemListStart
+        \resumeItem{Database}
+          { Developed an online dashboard by querying data using MySql, PHP (Laravel) and Angular.js. }
+        \resumeItem{E-commerce}
+          {Created an online donation system by which website visitors could make credit-card donations, using Angular.js, PHP and MySql.}
+        \resumeItem{API}
+         { Used Vue.js to communicate with API's to gather client website's traffic data. }
+        
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Rapid Labs}{Louisville, KY}
+      {Web Developer}{Aug 2015 - Jan 2016}
+      \resumeItemListStart
+        \resumeItem{Data Munging}
+          { Scraped websites to gather pricing data for competitive pricing for an e-commerce website and stored results in a MySql database. }
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {University of Louisville}{Louisville, KY}
+      {Research Assistant}{Aug 2014 - Jan 2015}
+      \resumeItemListStart
+        \resumeItem{Interpretation and Data Entry}
+          { Helped interpret medical questionnaire to Nepali refugees and entered the data.}
+      \resumeItemListEnd
+      
+      \resumeSubheading
+      {Christian Medical College}{Vellore, India}
+      { Resident Physician }{Feb 2008 - Feb 2011}
+      \resumeItemListStart
+        \resumeItem{Physician}
+          { Used robust clinical data to treat inpatients and outpatients in one of the best hospitals in India.}
+         \resumeItem{Critical Appraisal}
+          { Critically appraised medical literature for their statistical rigor for direct application in patient treatment.}
+          \resumeItem {Presentations}
+          { Presented clinical dilemmas and interesting clinical findings in front of large audiences.}
+          \resumeItem {Teaching}
+          { Informally taught medical students and medical interns.}
+      \resumeItemListEnd
+      
+      \resumeSubheading
+      {Baptist Christian Hospital}{Tezpur, India}
+      { Physician }{Feb 2005 - Feb 2007}
+      \resumeItemListStart
+        \resumeItem{Physician}
+          { Standardized treatment of malaria using WHO guidelines in a resource-limited setting which reduced mortality. Rejuvenated, with a team, a non-functional hospital. }
+        
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Christian Medical College}{Ludhiana, India}
+      {Doctor of Medicine}{Jun. 1999 -- Dec. 2004}
+  \resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Coursera}{}
+      {Deep Learning Specialization}{Jan. 2018 -- Feb. 2018}
+      \resumeSubHeadingListStart
+      \item{
+       \textbf{Coursework: }{Neural Networks and Deep Learning, Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization, Structuring Machine Learning Projects, Convolutional Neural Networks, Sequence Models. }
+      }
+      
+    \resumeSubHeadingListEnd
+    \resumeSubHeadingListEnd
+
+% %-----------PROJECTS-----------------
+% \section{Projects}
+%   \resumeSubHeadingListStart
+%     \resumeSubItem{A React App}
+    
+%     \href{http://www.github.com/pranayaryal/todo}{A todo app using React and Redux.}
+    
+      
+    
+%   \resumeSubHeadingListEnd
+
+% %
+
+
+\end{document}
