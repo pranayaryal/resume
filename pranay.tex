@@ -24,8 +24,8 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.5in}
-\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
 \addtolength{\textwidth}{1in}
 \addtolength{\topmargin}{-.5in}
 \addtolength{\textheight}{1.0in}
@@ -74,130 +74,102 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\Large Pranay Aryal} & Email :
+  \textbf{\Large Pranay Aryal} & 
   \textbf{drpranayaryal@gmail.com}\\
-  \ & Mobile : +1-502-416-8034 \\
+  \ & 502-416-8034 \\
+  \ & \href{https://www.github.com/pranayaryal}{https://github.com/pranayaryal} \\
+   \ & \href{https://www.pranaysite.com}{https://pranaysite.com} \\
 \end{tabular*}
 
 
 
-%--------PROGRAMMING SKILLS------------
-\section{Programming Skills}
- \resumeSubHeadingListStart
-    \item{
-     \textbf{Languages}{: Python, R, Javascript, SQL, PHP}
-     \hfill
-     \textbf{Technologies}{: Docker, Apache Spark, React, Vue }
-    }
- \resumeSubHeadingListEnd
 
 
-%-------------------------------------
+    
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
-
+     \resumeSubheading
+      {Humana}{Louisville, KY}
+      {Software Engineer}{4/2018 - Present}
+      \resumeItemListStart
+  
+        \item{\textbf{API - } Created an API service that is used by multiple internal teams (.Net Core, SQL Server)}
+        \item{\textbf{CI/CD - }Deploy applications to a cloud-based service, \textbf{Pivotal Cloud Foundry},  using a CI/CD pipeline in \textbf{Azure Devops}}
+        \item{\textbf{Feature Enhancements - } Add features to existing SOAP services based on business requirements, fix bugs in existing backend services on a large database (C\#, .NET, SQL and Pivotal Cloud Foundry, Git)}
+         \item{\textbf{ETL - } Create ETL pipelines using SSIS packages. (SQL)}
+          \item{\textbf{Security - } Fix security vulnerabilities highlighted by Checkmarx before pushing application to production. (.NET, C\#)}
+          
+          
+      \resumeItemListEnd
+      
     \resumeSubheading
       {Doe Anderson}{Louisville, KY}
-      {Web Developer}{Jan 2018 - Present}
+      {Software Developer}{2/2018 - 4/2018}
       \resumeItemListStart
-        
         \item
-          { Bug fixes and addition of new features to client websites using PHP, Javascript and MySql.}
-        \item
-          { Analyze client data consiting of 6 million rows using Apache Spark and MySql.}
+          { \textbf{Launched} email campaigns by integrating mailchimp, analyzed historical client data for insights, added new features to existing websites.
+          (\textbf{Laravel/PHP}, \textbf{Vue.js} and Mailchimp, AWS-RDS, PySpark, Wordpress)}
       \resumeItemListEnd
 
     \resumeSubheading
       {Blackstone Media}{Louisville, KY}
-      {Web Developer}{May 2016 - Sep 2017}
+      {Software Developer}{5/2015 - 7/2017}
       \resumeItemListStart
         \item
-          { Developed an online dashboard by querying data using MySql, PHP (Laravel) and Angular.js. }
-        \item
-          {Created an online donation system by which website visitors could make credit-card donations, using Angular.js, PHP and MySql.}
-        \item
-         { Used Vue.js to communicate with API's to gather client website's traffic data. }
-        \item
-        {Deployed code to production and managed team collaboration in github
-        }
-        
-      \resumeItemListEnd
+          {\textbf{Created value} for the client by launching an online payment system by which website visitors could make credit-card donations, created online dashboards, scraped websites to gather pricing data (\textbf{Laravel/PHP}, Angular.js,  MySql, Stripe API)}
+         
+    \resumeItemListEnd
 
-    \resumeSubheading
-      {Rapid Labs}{Louisville, KY}
-      {Web Developer}{Aug 2015 - Jan 2016}
-      \resumeItemListStart
-        \item
-          { Scraped websites to gather pricing data for competitive pricing for an e-commerce website and stored results in a MySql database. }
-      \resumeItemListEnd
 
-    \resumeSubheading
-      {University of Louisville}{Louisville, KY}
-      {Research Assistant}{Aug 2014 - Jan 2015}
-      \resumeItemListStart
-        \item
-          { Helped interpret medical questionnaire to Nepali refugees and entered the data.}
-      \resumeItemListEnd
       
       \resumeSubheading
-      {Christian Medical College}{Vellore, India}
-      { Resident Physician }{Feb 2008 - Feb 2011}
+      {Christian Medical College and Baptist Christian Hospital}{India}
+      { Resident Physician }{2005 - 2011}
       \resumeItemListStart
-        \item
-          { Used robust clinical data to treat inpatients and outpatients in one of the best hospitals in India.}
-         \item
-          { Critically appraised medical literature for their statistical rigor for direct application in patient treatment.}
-          \item
-          { Presented clinical dilemmas and interesting clinical findings in front of large audiences.}
-          \item
-          { Informally taught medical students and medical interns.}
+       \item
+          {Medical management of inpatients and outpatients}
+          
       \resumeItemListEnd
      
-      \resumeSubheading
-      {Baptist Christian Hospital}{Tezpur, India}
-      { Physician }{Feb 2005 - Feb 2007}
-      \resumeItemListStart
-        \item
-          { Standardized treatment of malaria using WHO guidelines in a resource-limited setting which reduced mortality. Rejuvenated, with a team, a non-functional hospital. }
-        
-      \resumeItemListEnd
 
   \resumeSubHeadingListEnd
+  
+\section{Relevant Projects}
+    \resumeSubHeadingListStart
+        \resumeItem
+        {\href{https://github.com/pranayaryal/larcommerce}{Personal payments Website}}
+        {Payment website using \textbf{Laravel 7.x}, \textbf{Stripe} and \textbf{React}. \href{}{https://github.com/pranayaryal/larcommerce}}
+    
+         \resumeItem
+        {\href{https://github.com/pranayaryal/covid-sanity}{Covid Papers Website}}
+        {Papers related to covid-19 using React. \href{}{https://github.com/pranayaryal/covid-sanity}}
+       
+         \resumeItem
+        {\href{https://github.com/pranayaryal/ecommerce}{Ecommerce with React}}
+        {Created a shopping cart using React Hooks and React's Context API. \href{https://github.com/pranayaryal/ecommerce}{https://github.com/pranayaryal/ecommerce}}
+        
+        \resumeItem
+        {\href{https://github.com/pranayaryal/blog-bulma}{Blog site}}
+        {Uses Gatsby.js. \href{https://github.com/pranayaryal/portfolio-site}{https://github.com/pranayaryal/portfolio-site}}
+        
+        \resumeItem
+        {\href{https://github.com/pranayaryal/chords}{Ukulele Chords}}
+        {Ukulele chords using React.js, \href{https://github.com/pranayaryal/chords}{https://github.com/pranayaryal/chords}}
+        
+         \resumeItem
+        {\href{http://pranayaryal.github.io/planar}{Neural Networks and Logistic Regression in the browser}}
+        {Use Tensorflow.js, \textbf{Vue.js}, HTML/CSS to compare a 4 layered neural network with logistic regression.  \href{https://pranayaryal.github.io/planar/}{https://pranayaryal.github.io/planar/}}
+        
 
-
-%-----------EDUCATION-----------------
+        
+    \resumeSubHeadingListEnd
+  
 \section{Education}
-  \resumeSubHeadingListStart
+
     \resumeSubheading
       {Christian Medical College}{Ludhiana, India}
-      {Doctor of Medicine}{Jun. 1999 -- Dec. 2004}
-  \resumeSubHeadingListEnd
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Coursera}{}
-      {Deep Learning Specialization}{Jan. 2018 -- Feb. 2018}
-      \resumeSubHeadingListStart
-      \item{
-       \textbf{Coursework: }{Neural Networks and Deep Learning, Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization, Structuring Machine Learning Projects, Convolutional Neural Networks, Sequence Models. }
-      }
+      {Medicine}{Jun. 1999 -- Dec. 2004}
       
-    \resumeSubHeadingListEnd
-    \resumeSubHeadingListEnd
-
-% %-----------PROJECTS-----------------
-% \section{Projects}
-%   \resumeSubHeadingListStart
-%     \resumeSubItem{A React App}
-    
-%     \href{http://www.github.com/pranayaryal/todo}{A todo app using React and Redux.}
-    
-      
-    
-%   \resumeSubHeadingListEnd
-
-% %
-
-
 \end{document}
